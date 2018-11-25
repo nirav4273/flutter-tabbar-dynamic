@@ -35,7 +35,7 @@ class CustomCardView extends StatelessWidget {
                       onTap: (){
                         Share.share("hello $index");
                       },
-                      child: Icon(Icons.share),
+                      child: Icon(Icons.share,size: 18.0,),
                     )
                 ),
               )
